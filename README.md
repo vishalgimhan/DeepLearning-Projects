@@ -31,3 +31,13 @@
 - **Training and Evaluation**: The autoencoder is trained for 10 epochs. The hidden representations from the autoencoder are used to train a Logistic Regression model for fraud detection. The model achieves an accuracy of 97.1%.
 
 - **Results**: The classification report shows high precision and recall for both classes, indicating the model’s effectiveness in detecting fraudulent transactions.
+
+**04. Data Augmentation for Image Processing**
+
+- **Install Tensorflow**: The project starts with installing necessary packages like tensorflow_docs and tensorflow_datasets.
+
+- **Image Augmentation**: Various augmentation techniques are applied to a single image, including flipping, grayscaling, saturation adjustment, brightness adjustment, rotation, and cropping.
+
+- **Dataset Augmentation**: The MNIST dataset is augmented with techniques like random cropping and brightness adjustment.
+
+- **Model Training**: Two models are trained—one with augmented data and one without. The augmented model shows better performance and less overfitting compared to the non-augmented model
